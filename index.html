@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/index.css">
+    <title>Bookshelf</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Bookshelf</h1>
+    </div>
+    <div id="main" >
+        <form id="inputform">
+            <label for="id">Book ID:</label><br>
+            <input type="text" id="id" name="id" placeholder="Insert ID"><br>
+            <label for="name">Book Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Insert Book Name"><br>
+            <label for="author">Author Name:</label><br>
+            <input type="text" id="author" name="author" placeholder="Insert Author Name"><br>
+            <label for="releaseyear">Release Year:</label><br>
+            <input type="number" id="releaseyear" name="releaseyear" placeholder="Insert Release Year"><br>
+            <input type="checkbox" id="status" name=status > 
+            <label for="status">Done read</label><br>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+    <div id="booklist">
+        <div id="listfinished">
+            <h2>Finished Booklist</h2>
+            <div id="finishedbooklist">
+                <!-- list finished book here -->
+            </div>
+        </div>
+        <div id="listunfinished">
+            <h2>Unfinished Booklist</h2>
+            <div id="unfinishedbooklist">
+                <!-- list unfinished book here -->
+            </div>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script></script>
+    <script src="app.js"></script>
+</body>
+</html>

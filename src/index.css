@@ -1,0 +1,43 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+    background: black;
+    color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#header h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+#main #inputform {
+    padding-top: 50px;
+    border-top: 1px solid white;
+}
+
+#main #submit {
+    border-radius: 0;
+}
+
+#booklist {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#listfinished {
+    width: 40%;
+}
+
+#listunfinished {
+    width: 40%;
+}
